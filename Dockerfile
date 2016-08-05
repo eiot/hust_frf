@@ -1,5 +1,5 @@
 from eiot/matlab2014b-compiler-runtime-docker:latest
 
-ADD Feat_RF_mcr /mnt/
-
-
+COPY petseg_main /bin/
+COPY clinical_1.nii /bin/
+RUN chmod 777 /bin/petseg_main
