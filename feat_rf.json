@@ -1,7 +1,7 @@
 {
   "name": "hust_frf",
-  "tool-version": "1.0",
-  "description": "PETSEG pipeline submitted by Huang Xu",
+  "tool-version": "1.1",
+  "description": "PETSEG pipeline submitted by Huang Xu,mix the problem of orient",
   "command-line": "HOME=/tmp; petseg_main [PET_IMAGE] .",
   "docker-image": "eiot/hust_frf",
   "docker-index": "http://index.docker.io",
